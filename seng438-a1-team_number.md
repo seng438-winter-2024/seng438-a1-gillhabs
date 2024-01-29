@@ -15,7 +15,7 @@
 (When you finish writing, update the following list using right click, then
 “Update Field”)
 
-[1 Introduction	1](#_Toc439194677)
+[1 Introduction](#_Toc439194680)
 
 [2 High-level description of the exploratory testing plan	1](#_Toc439194678)
 
@@ -31,16 +31,19 @@ learned	1](#_Toc439194682)
 
 [7 Comments/feedback on the lab and lab document itself	1](#_Toc439194683)
 
+<div id="_Toc439194680"></div>
 # Introduction
 
 &emsp;Developing effective software practices is crucial to creating a sound product that can be successfully navigated by users, or others who will interact with the product, with ease and efficiency. There are numerous ways to practice good software development, possibly the most important of which being proper testing. Conducting thorough testing on a software application is essential in ensuring it is free of errors that might cause issues for users in the future. There are multiple ways of testing an application, and being exposed to multiple testing methods provides a means of producing effective software. The understanding of software testing going into this lab included only testing actual functions contained in the application code through unit testing. Usually, a test was performed on each coded function for its intended function and some edge cases using a unit test, but testing the actual end-end paths of an application was not consistently carried out. Knowledge of exploratory, regressive, and manual scripted testing was limited other than the understanding that exploratory testing was a less strict testing plan to follow, but not as strict as manual where each test and scenario is written out and to be followed. The following lab report will focus on assessing an ATM machine simulation system and its functions through exploratory, manual scripted, and regression testing. By implementing these different testing approaches, a full examination of the system will be done to determine an analysis on its overall performance and functionality, which contributed to a greater understanding of comprehensive software testing practices.
 
 
-
+<div id="_Toc439194678"></div>
 # High-level description of the exploratory testing plan
 
 &emsp;The first stage in testing involved splitting into 2 groups and independently performing exploratory testing on the entire system. The decision was made to take a wide scope, low depth approach to testing in order to check the typical execution of the program. This means attempting to replicate the typical ATM use without considering extreme outlier scenarios. This exploratory testing plan will assess multiple functionalities of the system, but not as extensively as if assessing a specific few functions. The following functions will be tested during the exploratory phase: System login, depositing/withdrawals into both checking and savings, and transfer transactions. The decision was made to ignore the ATM system logs and balance inquiries during this testing because there was still an introductory understanding of the intended functionality of the entire system. Overwhelming the exploratory testing with intricate details of the ATM logs and account balances in every step takes away time to focus on the most basic functionalities of the application. 
 
+
+<div id="_Toc439194679"></div>
 # Comparison of exploratory and manual functional testing
 
 &emsp;The combination of exploratory testing and manual functional testing ensured a thoroughly tested product, as each one has different benefits. The benefit of manual functional testing is a structured set of rules to follow. There is no subjectivity, it was a simple process. We were given the initial state and the steps to reproduce an outcome, then comparing the expected outcome with the actual outcome. This method helped us understand what the software is truly trying to do with the expected outcome, which leaves very little ambiguity while testing. On the other hand, having a rigid test suite to follow means little freedom to explore other scenarios that might not be in the test suite. Meanwhile, exploratory testing lets you test as you go. Compared to manual testing, where you are looking for specific outcomes, exploratory testing gives you the option to find bugs that would be typically harder to pinpoint. Since there is no strict set of rules while using exploratory testing, it gives a testing perspective that is more similar to a typical user of the software. However, exploratory testing does not provide all the intended functionality of the system under test, so certain operations may get overlooked. Manual scripted testing is effective, as it gives a layout and structure to the testing that follows every use case, but may be time consuming and less efficient. Exploratory testing gives an efficient manner of exploring the application as a regular user would to find important bugs in the basic flow of the product, but may not be as effective for all edge cases. Based on the provided test suite for manual testing, it was discovered that although manual testing gives a more rigid structure to testing and a better guideline to follow, exploratory testing has its own benefits of finding bugs that may not necessarily be found in a developed manual testing plan.
