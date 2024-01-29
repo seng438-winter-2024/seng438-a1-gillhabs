@@ -61,14 +61,14 @@ Another teamwork aspect that contributed to the success of the lab was discussin
 
 A difficulty encountered in this lab was being able to determine what should be considered a bug and what should not. For example, there was an instance where one of us had an issue where the UI had a display glitch. This was most likely a local machine error, since it could not be replicated or identified, and produced difficulty understanding if this was a real bug or a glitch. This error occurred twice in completely different areas of the application, one of which is shown in Figure 1, and displays the importance of following every step and ensuring that the issue can be replicated.
 
-![](media/438_figure_1.jpeg)
+![](media/438_figure_1.png)
 Figure 1: Screen glitch on the transaction page from one tester’s computer.
 
 Additionally, certain issues presented on some machines and not others, further conflating what should be considered a bug or not. For instance, the misspelling of “Would” on the screen presented after canceling a transaction appeared to be resolved in version 1.1 (Figure 3), but on some machines was still missing an “n” from the end of “transaction” (Figure 2).
 
-![](media/438_figure_2.jpeg)
+![](media/438_figure_2.png)
 Figure 2: Version 1.1 being distorted on some machines
-![](media/438_figure_3.jpeg)
+![](media/438_figure_3.png)
 Figure 3: Version 1.1 being correct on some machines
 
 # Comments/feedback on the lab and lab document itself
