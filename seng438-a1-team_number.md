@@ -66,8 +66,8 @@ Figure 1: Screen glitch on the transaction page from one tester’s computer.
 
 Additionally, certain issues presented on some machines and not others, further conflating what should be considered a bug or not. For instance, the misspelling of “Would” on the screen presented after canceling a transaction appeared to be resolved in version 1.1 (Figure 3), but on some machines was still missing an “n” from the end of “transaction” (Figure 2).
 
-![](media/438_figure_2.png)
-Figure 2: Version 1.1 being distorted on some machines
+![Figure 2: Version 1.1 being distorted on some machines](media/438_figure_2.png)
+
 ![](media/438_figure_3.png)
 Figure 3: Version 1.1 being correct on some machines
 
